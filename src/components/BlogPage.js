@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg";
+import img from "../assets/Images/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg";
 import LogoComponent from "../subComponents/LogoComponent";
 import SocialIcons from "../subComponents/SocialIcons";
 import PowerButton from "../subComponents/PowerButton";
@@ -19,7 +19,7 @@ const MainContainer = styled(motion.div)`
   background-position: center;
 `;
 const Container = styled.div`
-  background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.8)`};
+  background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.75)`};
   width: 100%;
   height: auto;
   position: relative;
