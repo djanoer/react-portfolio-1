@@ -31,6 +31,7 @@ const Power = styled.button`
   }
 
   & > *:first-child {
+    text-decoration: none;
     color: inherit;
   }
 `;

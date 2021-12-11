@@ -8,6 +8,7 @@ const Box = styled(motion.div)`
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+
   width: 65vw;
   height: 55vh;
   display: flex;
@@ -42,6 +43,7 @@ const Text = styled.div`
   color: ${(props) => props.theme.body};
   padding: 2rem;
   cursor: pointer;
+
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
